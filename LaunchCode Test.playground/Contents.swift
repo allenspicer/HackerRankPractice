@@ -11,7 +11,7 @@ var str = "Hello, playground"
 func lonelyInteger(arr: [Int]) -> Int {
     var count = arr[0]
     while count > 0 {
-        let index = 
+        arr[count]
         
         
         count = count - 1
@@ -19,3 +19,5 @@ func lonelyInteger(arr: [Int]) -> Int {
     
     return Int
 }
+
+lonelyInteger([3,1,1,2])
