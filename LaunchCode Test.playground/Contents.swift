@@ -9,15 +9,36 @@ var str = "Hello, playground"
 
 
 func lonelyInteger(arr: [Int]) -> Int {
-    var count = arr[0]
-    while count > 0 {
-        arr[count]
+    
+    //create result variable
+    var result = Int()
+
+    //set the total count of the numbers
+    let count = arr[0]
+    
+    //loop through all the numbers provided after the count
+    var i = 1
+    while i < count {
+
+        //create range for test
+        let range = i+1...count
         
-        
-        count = count - 1
+        //if the number at that index is equal to another number break out of the loop else set that number as result
+
+        for number in arr[range]{
+            if arr[i] != number{
+                break
+            }
+            else{
+                result = arr[i]
+            }
+        }
+
+    
+    i = 1 + i
     }
     
-    return Int
+    return result
 }
 
 lonelyInteger([3,1,1,2])
