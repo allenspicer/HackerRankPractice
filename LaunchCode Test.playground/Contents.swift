@@ -15,8 +15,10 @@ func lonelyInteger(arr: [Int]) -> Int {
     //remove count from copy
     mutableArr.removeAtIndex(0)
     
+    print(mutableArr)
+    
     //create result variable
-    var result = Int()
+    var result = 0
 
     //create counter for loop
     var i = 1
@@ -30,14 +32,21 @@ func lonelyInteger(arr: [Int]) -> Int {
         for number in mutableArr{
            
             //if this number is equal to any of the others remove it from the copy
-            if mutableArr[i] == number{
+            if arr[i] == number{
                 mutableArr.removeAtIndex(i)
+                print(mutableArr)
+
             }
         }
 
     i = 1 + i
+        
     }
-    result = mutableArr[0]
+    if mutableArr.count != 0{
+    print(mutableArr)
+
+    result = mutableArr[0] as Int
+    }
     
     return result
 }
