@@ -27,10 +27,10 @@ func lonelyInteger(arr: [Int]) -> Int {
 
         for number in arr[range]{
             if arr[i] != number{
-                break
+                result = arr[i]
             }
             else{
-                result = arr[i]
+                
             }
         }
 
