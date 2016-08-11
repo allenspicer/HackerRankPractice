@@ -18,34 +18,25 @@ func lonelyInteger(arr: [Int]) -> Int {
     //create result variable
     var result = Int()
 
-    //set the total count of the numbers
-    let count = arr[0]
-    
     //create counter for loop
     var i = 1
     
-    //loop through all the numbers provided after the count
-    while i < count {
-        
-        //create range for testing
-        let range = i...count
+    //loop through all the remaining numbers
+    while i < arr[0] {
 
 //check whether the number at this index is equal to any others
 
         //for all of the relevant numbers
-        for number in arr[range]{
+        for number in mutableArr{
            
             //if this number is equal to any of the others remove it from the copy
-            if arr[i] == number{
+            if mutableArr[i] == number{
                 mutableArr.removeAtIndex(i)
             }
         }
 
     i = 1 + i
     }
-   
-    print(mutableArr[0])
-    
     result = mutableArr[0]
     
     return result
