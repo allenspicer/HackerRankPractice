@@ -2,9 +2,8 @@
 
 import UIKit
 
-var str = "Hello, playground"
 
-//first is count
+//first value is count
 //for all following find the one only there once
 
 
@@ -21,7 +20,7 @@ func lonelyInteger(arr: [Int]) -> Int {
     while i < count {
 
         //create range for test
-        let range = i+1...count
+        let range = 1...count
         
 //check whether the number at this index is equal to any others
 
@@ -37,7 +36,6 @@ func lonelyInteger(arr: [Int]) -> Int {
             }
         }
 
-    
     i = 1 + i
     }
     
