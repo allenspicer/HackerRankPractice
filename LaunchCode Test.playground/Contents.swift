@@ -23,14 +23,17 @@ func lonelyInteger(arr: [Int]) -> Int {
         //create range for test
         let range = i+1...count
         
-        //if the number at that index is equal to another number break out of the loop else set that number as result
+//check whether the number at this index is equal to any others
 
+        //for all of the remaining numbers
         for number in arr[range]{
-            if arr[i] != number{
+           
+            //if this number is equal to any of them break this loop
+            if arr[i] == number{
+            break
+            //else this number is equal to none of them, store as result
+            }else{
                 result = arr[i]
-            }
-            else{
-                
             }
         }
 
