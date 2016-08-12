@@ -22,14 +22,14 @@ var i = 1
 while i < arr[0] {
     
     //check whether the number at this index is equal to any others
-    
     //for all of the relevant numbers
-    for number in mutableArr{
+    for number in arr{
         
         //if this number is equal to any of the others remove it from the copy
         if arr[i] == number{
             mutableArr.removeAtIndex(0)
-            
+            mutableArr.removeAtIndex(arr.indexOf("\(number)"))
+
         }
     }
     
