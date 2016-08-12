@@ -4,16 +4,13 @@ import UIKit
 
 // Enter your code here
 
-var n = Int(readLine()!)!
+var n = 3
 
 // read array and map the elements to integer
-var arr = readLine()!.characters.split(" ").map{Int(String($0))!}
+var arr = [1,1,2]
 
 //create mutable copy
 var mutableArr = arr
-
-//remove count from copy
-mutableArr.removeAtIndex(0)
 
 //create result variable
 var result = 0
