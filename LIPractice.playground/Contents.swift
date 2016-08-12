@@ -2,8 +2,6 @@
 
 import UIKit
 
-// Enter your code here
-
 var n = 3
 
 // read array and map the elements to integer
