@@ -45,11 +45,14 @@ func lonelyInteger(arr: [Int]) -> Int {
 }
 
 
-lonelyInteger([3,1,1,2])
-lonelyInteger([1,1])
-
-
-
+//
+//lonelyInteger([1,1])
+//
+//lonelyInteger([3,1,1,2])
+//
+//lonelyInteger([5,0,0,1,2,1])
+//
+//lonelyInteger([9,4,9,95,57,4,57,93,9])
 
 
 
