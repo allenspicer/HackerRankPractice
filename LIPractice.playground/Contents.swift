@@ -16,10 +16,10 @@ var mutableArr = arr
 var result = 0
 
 //create counter for loop
-var i = 1
+var i = 0
 
 //loop through all the remaining numbers
-while i < arr[0] {
+while i < n {
     
     //check whether the number at this index is equal to any others
     //for all of the relevant numbers
@@ -27,15 +27,23 @@ while i < arr[0] {
         
         //if this number is equal to any of the others remove it from the copy
         if arr[i] == number{
-            print(mutableArr[i])
+            print(i)
             mutableArr.removeAtIndex(i)
-            print(mutableArr.indexOf(number)!)
-            mutableArr.removeAtIndex(mutableArr.indexOf(number)!)
+            print(mutableArr.indexOf(number))
+            if let index = mutableArr.indexOf(number){
+               mutableArr.removeAtIndex(index)
+            }
+            
         }
     }
     
-    i = 1 + i
+    i =  i + 1
 }
+
+if let result2 = mutableArr[0]{
+    print(result2)
+}
+
 result = mutableArr[0] as Int
 
 
