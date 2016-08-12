@@ -20,16 +20,20 @@ var i = 0
 
 //loop through all the remaining numbers
 while i < n {
+    print(i)
     
     //check whether the number at this index is equal to any others
     //for all of the relevant numbers
     for number in arr{
-        
+        print(number)
         //if this number is equal to any of the others remove it from the copy
-        if arr[i] == number{
+        if arr[i] == number && mutableArr.indexOf(number) != i {
+            print(arr)
             print(i)
-            mutableArr.removeAtIndex(i)
-            print(mutableArr.indexOf(number))
+            if mutableArr[i] isEqualto mutableArr.last{
+                mutableArr.removeAtIndex(i)}
+            print(mutableArr[mutableArr.indexOf(number)!])
+            
             if let index = mutableArr.indexOf(number){
                mutableArr.removeAtIndex(index)
             }
@@ -40,7 +44,7 @@ while i < n {
     i =  i + 1
 }
 
-if let result2 = mutableArr[0]{
+if let result2 = mutableArr[0] as Int?{
     print(result2)
 }
 
