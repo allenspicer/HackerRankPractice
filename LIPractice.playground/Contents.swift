@@ -27,9 +27,10 @@ while i < arr[0] {
         
         //if this number is equal to any of the others remove it from the copy
         if arr[i] == number{
-            mutableArr.removeAtIndex(0)
-            mutableArr.removeAtIndex(arr.indexOf("\(number)"))
-
+            print(mutableArr[i])
+            mutableArr.removeAtIndex(i)
+            print(mutableArr.indexOf(number)!)
+            mutableArr.removeAtIndex(mutableArr.indexOf(number)!)
         }
     }
     
