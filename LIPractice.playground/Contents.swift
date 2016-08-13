@@ -28,8 +28,8 @@ while i < n {
         if arr[i] == number && mutableArr.indexOf(number) != i {
             print(arr)
             print(i)
-            if mutableArr[i] != mutableArr.last!{
-                mutableArr.removeAtIndex(i)}
+//            if mutableArr[i] != mutableArr.last!{
+//                mutableArr.removeAtIndex(i)}
             print(mutableArr[mutableArr.indexOf(number)!])
             
             if let index = mutableArr.indexOf(number){
@@ -42,9 +42,6 @@ while i < n {
     i =  i + 1
 }
 
-if let result2 = mutableArr[0] as Int?{
-    print(result2)
-}
 
 result = mutableArr[0] as Int
 
