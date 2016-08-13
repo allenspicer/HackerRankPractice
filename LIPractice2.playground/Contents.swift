@@ -2,10 +2,10 @@
 
 import UIKit
 
-var n = 3
+var n = 5
 
 // read array and map the elements to integer
-var arr = [1,1,2]
+var arr = [0,0,1,2,1]
 
 //create result variable
 var result = 0
@@ -19,6 +19,8 @@ while i < arr.count{
     arr.removeAtIndex(i)
     if arr.contains(current){
         arr.removeAtIndex(arr.indexOf(current)!)
+    }else{
+        arr.append(current)
     }
     
 i = i + 1
