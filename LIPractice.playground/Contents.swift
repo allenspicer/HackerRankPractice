@@ -28,7 +28,7 @@ while i < n {
         if arr[i] == number && mutableArr.indexOf(number) != i {
             print(arr)
             print(i)
-            if mutableArr[i] isEqualto mutableArr.last{
+            if mutableArr[i] != mutableArr.last!{
                 mutableArr.removeAtIndex(i)}
             print(mutableArr[mutableArr.indexOf(number)!])
             
