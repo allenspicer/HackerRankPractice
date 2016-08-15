@@ -2,10 +2,10 @@
 
 import UIKit
 
-var n = 3
+var n = 5
 
 // read array and map the elements to integer
-var arr = [1,1,2]
+var arr = [1,1,3,3,4]
 
 //create mutable copy
 var mutableArr = arr
