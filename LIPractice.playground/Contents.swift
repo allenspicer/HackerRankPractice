@@ -27,8 +27,8 @@ while i < n {
         //if this number is equal to any of the others remove it
         if arr[i] == number && mutableArr.indexOf(number) != i {
             print(arr)
-           if mutableArr[i] != mutableArr.last!{
-                mutableArr.removeAtIndex(i)}
+//           if mutableArr[i] != mutableArr.last!{
+//                mutableArr.removeAtIndex(i)}
             print(mutableArr[mutableArr.indexOf(number)!])
             
             if let index = mutableArr.indexOf(number){
