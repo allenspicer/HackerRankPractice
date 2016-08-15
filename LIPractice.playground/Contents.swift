@@ -24,7 +24,7 @@ while i < n {
     //for all of the relevant numbers
     for number in arr{
         print(number)
-        //if this number is equal to any of the others remove it from the copy
+        //if this number is equal to any of the others remove it
         if arr[i] == number && mutableArr.indexOf(number) != i {
             print(arr)
 //            if mutableArr[i] != mutableArr.last!{
