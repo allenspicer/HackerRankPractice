@@ -30,22 +30,15 @@ var i = 0
 
 //loop through all the remaining numbers
 while i < n {
-    print(i)
     
-    //check whether the number at this index is equal to any others
     //for all of the relevant numbers
     for number in arr{
-        print(number)
-        //if this number is equal to any of the others remove it
+        //if this number is equal to any in the array except itself
         if arr[i] == number && arr.indexOf(number) != i {
-            print(arr)
-//           if mutableArr[i] != mutableArr.last!{
-//                mutableArr.removeAtIndex(i)}
-//            print(mutableArr[mutableArr.indexOf(number)!])
             
+            //remove from array
             if let index = mutableArr.indexOf(number){
                mutableArr.removeAtIndex(index)
-                print (mutableArr)
                 
             }
             
