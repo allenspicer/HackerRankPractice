@@ -3,7 +3,7 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "#CharacterRangeLen=46&amp;CharacterRangeLoc=754&amp;EndingColumnNumber=46&amp;EndingLineNumber=31&amp;StartingColumnNumber=13&amp;StartingLineNumber=31&amp;Timestamp=492991910.827028"
+         documentLocation = "#CharacterRangeLen=46&amp;CharacterRangeLoc=756&amp;EndingColumnNumber=46&amp;EndingLineNumber=31&amp;StartingColumnNumber=13&amp;StartingLineNumber=31&amp;Timestamp=492994726.387001"
          selectedRepresentationIndex = "1"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
@@ -25,12 +25,17 @@
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
          documentLocation = "#CharacterRangeLen=8&amp;CharacterRangeLoc=326&amp;EndingColumnNumber=13&amp;EndingLineNumber=20&amp;StartingColumnNumber=5&amp;StartingLineNumber=20&amp;Timestamp=492722573.629585"
-         selectedRepresentationIndex = "0"
+         selectedRepresentationIndex = "1"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "#CharacterRangeLen=31&amp;CharacterRangeLoc=884&amp;EndingColumnNumber=47&amp;EndingLineNumber=34&amp;StartingColumnNumber=16&amp;StartingLineNumber=34&amp;Timestamp=492991910.828686"
+         documentLocation = "#CharacterRangeLen=31&amp;CharacterRangeLoc=886&amp;EndingColumnNumber=47&amp;EndingLineNumber=34&amp;StartingColumnNumber=16&amp;StartingLineNumber=34&amp;Timestamp=492994757.431519"
          selectedRepresentationIndex = "2"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=18&amp;CharacterRangeLoc=934&amp;EndingColumnNumber=35&amp;EndingLineNumber=35&amp;StartingColumnNumber=17&amp;StartingLineNumber=35&amp;Timestamp=492994757.431519"
+         selectedRepresentationIndex = "1"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
    </TimelineItems>
