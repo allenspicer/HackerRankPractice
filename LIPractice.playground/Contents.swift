@@ -2,10 +2,10 @@
 
 import UIKit
 
-var n = 9
+var n = 5
 
 // read array and map the elements to integer
-var arr = [9,4,9,95,57,4,57,93,9]
+var arr = [0,0,1,2,1]
 
 
 //lonelyInteger([1,1])
