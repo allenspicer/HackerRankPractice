@@ -42,7 +42,7 @@ while i < n {
 }
 
 
-result = mutableArr[0] as Int
+//result = mutableArr[0] as Int
 
 
 print (result)
