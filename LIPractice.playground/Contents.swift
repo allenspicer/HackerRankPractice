@@ -2,10 +2,22 @@
 
 import UIKit
 
-var n = 5
+var n = 9
 
 // read array and map the elements to integer
-var arr = [1,1,3,3,4]
+var arr = [9,4,9,95,57,4,57,93,9]
+
+
+//lonelyInteger([1,1])
+//
+//lonelyInteger([3,1,1,2])
+//
+//lonelyInteger([5,0,0,1,2,1])
+//
+//lonelyInteger([9,4,9,95,57,4,57,93,9])
+
+
+
 
 //create mutable copy
 var mutableArr = arr
