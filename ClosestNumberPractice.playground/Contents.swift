@@ -32,8 +32,11 @@ while i < A.count {
         
         //append the two numbers that made the same diff
         
+        print(result)
         result.append(A[prior])
         result.append(A[i])
+        print(result)
+        
         
     }
     
