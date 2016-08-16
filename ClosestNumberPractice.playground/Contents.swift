@@ -12,22 +12,23 @@ var result = Array<Int>()
 A.sortInPlace()
 
 var i = 1
-var greatestDiff = 0
+var smallestDiff = Swift.abs(A[0] - A[1])
 
 while i < A.count {
     let prior = i - 1
     let currentDiff = A[prior]-A[i]
     
-    if (Swift.abs(currentDiff) > greatestDiff){
+    if (Swift.abs(currentDiff) < smallestDiff){
         
         //record which two numbers made the diff
         result = [A[prior], A[i]]
         
         //set B as the difference
-        greatestDiff = currentDiff
+        smallestDiff = currentDiff
+        print(smallestDiff)
         
     }
-    if (Swift.abs(currentDiff) == greatestDiff){
+    if (Swift.abs(currentDiff) == smallestDiff){
         
         //append the two numbers that made the same diff
         
