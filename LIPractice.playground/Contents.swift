@@ -39,9 +39,7 @@ while i < n {
             //remove from array
             if let index = mutableArr.indexOf(number){
                mutableArr.removeAtIndex(index)
-                
             }
-            
         }
     }
     
