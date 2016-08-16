@@ -16,7 +16,9 @@ var smallestDiff = Swift.abs(A[0] - A[1])
 
 while i < A.count {
     let prior = i - 1
-    let currentDiff = A[prior]-A[i]
+    let currentDiff = Swift.abs(A[prior] - A[i])
+    print(currentDiff)
+    print(smallestDiff)
     
     if (Swift.abs(currentDiff) < smallestDiff){
         
