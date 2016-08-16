@@ -38,4 +38,9 @@ while i < A.count {
     i = i + 1
 }
 
-print (result)
+
+for value in result{
+    print (value)
+}
+
+
