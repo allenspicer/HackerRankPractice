@@ -39,8 +39,7 @@ while i < A.count {
 }
 
 
-for value in result{
-    print (value)
+for answer in result{
+    print (answer, terminator:" ")
 }
-
 
