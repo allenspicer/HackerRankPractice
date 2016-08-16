@@ -17,19 +17,26 @@ var greatestDiff = 0
 while i < A.count {
     let prior = i - 1
     let currentDiff = A[prior]-A[i]
-    if (currentDiff > greatestDiff){
+    
+    if (Swift.abs(currentDiff) > greatestDiff){
+        
         //record which two numbers made the diff
-        result =
+        result = [A[prior], A[i]]
         
         //set B as the difference
+        greatestDiff = currentDiff
         
     }
-    if (A[prior]-A[i] == greatestDiff){
+    if (Swift.abs(currentDiff) == greatestDiff){
+        
         //append the two numbers that made the same diff
         
-        
+        result.append(A[prior])
+        result.append(A[i])
         
     }
     
     i = i + 1
 }
+
+print (result)
