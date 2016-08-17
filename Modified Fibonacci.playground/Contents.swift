@@ -17,7 +17,7 @@ var result = input
 
 while i < N{
     let next = i + 1
-    if next <= input.last{
+    if next <= (input.count - 1){
         let one = input[i]
         let two = input[next]
         let new = one + (two*two)
