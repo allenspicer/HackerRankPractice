@@ -9,5 +9,14 @@ let N = input.last
 
 input.removeLast()
 
+print(input)
 
+var i = 0
 
+var result = input
+
+while i < N{
+    
+    
+    i = i + 1
+}
