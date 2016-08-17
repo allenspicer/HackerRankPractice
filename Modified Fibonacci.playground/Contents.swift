@@ -2,4 +2,12 @@
 
 import UIKit
 
-var str = "Hello, playground"
+
+var input = [0,1,5]
+
+let N = input.last
+
+input.removeLast()
+
+
+
