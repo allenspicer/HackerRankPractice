@@ -4,6 +4,15 @@ import UIKit
 
 //given three numbers, return the median
 
+var array = [1,2,3]
+
+var result = String(array[1])
+
+print(result)
+
+let cleanedResult = String(result.characters.filter{ !"\n".characters.contains($0) })
+print(cleanedResult)
+
 //invert a string
 
 
