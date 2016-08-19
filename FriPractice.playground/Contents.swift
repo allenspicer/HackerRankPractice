@@ -13,14 +13,28 @@ print(result)
 let cleanedResult = String(result.characters.filter{ !"\n".characters.contains($0) })
 print(cleanedResult)
 
-//invert a string
 
+//invert a string
+var myString = String("hello")
+let reverse = String(myString.characters.reverse())
+print(myString + " " + reverse)
 
 //invert a string in place
+myString = String(myString.characters.reverse())
 
 //Build a program that will solve simple math problems of X digits by only using single digit operations.
 
+
 // Given a series of parentheses determine if they are balanced or not.
+{{(
+    )
+    
+    {
+        {
+            
+        }
+    }
+    }}
 
 // Solve for n factorial using recursion.
 
