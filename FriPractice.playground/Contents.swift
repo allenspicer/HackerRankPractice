@@ -26,18 +26,18 @@ myString = String(myString.characters.reverse())
 
 
 // Given a series of parentheses determine if they are balanced or not.
-{{(
-    )
-    
-    {
-        {
-            
-        }
-    }
-    }}
+
 
 // Solve for n factorial using recursion.
-
+let n = 9
+var myResult = 1
+var i = 1
+while i < n {
+    myResult = myResult * i
+    
+    i = i + 1
+}
+print(myResult)
 
 //determine if these parantheses are valid
 
@@ -46,6 +46,21 @@ myString = String(myString.characters.reverse())
 
 
 //method that determines number of handshakes when given number of people
+
+let numberOfPeople = 5
+var counter = numberOfPeople
+var numberOfHandshakes = 0
+
+while counter > 0 {
+    //for each person after this one
+    
+    //increment handshakes
+    
+    
+    counter = counter - 1
+}
+
+
 
 
 //method that takes the sum of any number of numbers
