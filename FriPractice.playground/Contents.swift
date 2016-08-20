@@ -72,8 +72,6 @@ print (numberOfHandshakes)
 
 
 
-
-
 //method that takes the sum of any number of numbers
 
 
