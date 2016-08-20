@@ -49,7 +49,7 @@ print(myResult)
 
 //method that determines number of handshakes when given number of people
 
-let numberOfPeople = 1
+let numberOfPeople = 10
 var counter = numberOfPeople
 var numberOfHandshakes = 0
 
