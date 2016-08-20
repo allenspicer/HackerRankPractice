@@ -49,7 +49,7 @@ print(myResult)
 
 //method that determines number of handshakes when given number of people
 
-let numberOfPeople = 5
+let numberOfPeople = 1
 var counter = numberOfPeople
 var numberOfHandshakes = 0
 
@@ -68,7 +68,7 @@ while counter > 0 {
     counter = counter - 1
 }
 
-
+print (numberOfHandshakes)
 
 
 
