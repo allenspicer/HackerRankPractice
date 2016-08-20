@@ -2,6 +2,8 @@
 
 import UIKit
 
+
+
 //given three numbers, return the median
 
 var array = [1,2,3]
@@ -54,11 +56,20 @@ var numberOfHandshakes = 0
 while counter > 0 {
     //for each person after this one
     
-    //increment handshakes
-    
+    var i = counter
+    while i < numberOfPeople{
+        
+        //increment handshakes
+        numberOfHandshakes = numberOfHandshakes + 1
+        
+        i = i + 1
+    }
     
     counter = counter - 1
 }
+
+
+
 
 
 
