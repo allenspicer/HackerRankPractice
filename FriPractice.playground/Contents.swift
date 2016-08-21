@@ -81,7 +81,7 @@ func Summer (array:Array<Int>)-> Int{
     return result
 }
 
-Summer([5,7,2,5,6,8,])
+Summer([5,7,2,5,6,8])
 
 
 //describe MVC and how it is implemented in iOS
