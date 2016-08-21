@@ -70,9 +70,11 @@ while counter > 0 {
 
 print (numberOfHandshakes)
 
-
-
 //method that takes the sum of any number of numbers
+func Summer (){
+    
+}
+
 
 
 //describe MVC and how it is implemented in iOS
