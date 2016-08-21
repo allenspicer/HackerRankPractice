@@ -71,10 +71,17 @@ while counter > 0 {
 print (numberOfHandshakes)
 
 //method that takes the sum of any number of numbers
-func Summer (){
+func Summer (array:Array<Int>)-> Int{
+    var result = 0
     
+    for number in array{
+        result = result + number
+        
+    }
+    return result
 }
 
+Summer([5,7,2,5,6,8,])
 
 
 //describe MVC and how it is implemented in iOS
