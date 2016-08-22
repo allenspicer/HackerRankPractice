@@ -86,6 +86,7 @@ Summer([0,0,0,0,0])
 
 //describe MVC and how it is implemented in iOS
 
+
 //discuss autolayout example
 
 //discuss view lifecycle
