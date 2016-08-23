@@ -104,8 +104,9 @@ var myArray = [0,1,2,3]
 
 func reverseArray (array:Array<Int>) -> Array<Int>{
     var reversedArray = array
+    let insertIndex = array.last! + 1
     for value in array{
-        reversedArray.append(value)
+        reversedArray.insert(value, atIndex: insertIndex)
     }
     
     
