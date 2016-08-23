@@ -103,11 +103,11 @@ Summer([0,0,1,0,0])
 var myArray = [0,1,2,3]
 
 func reverseArray (array:Array<Int>) -> Array<Int>{
+    var reversedArray = array
     
     
     
-    
-    return array
+    return reversedArray
 }
 
 reverseArray(myArray)
