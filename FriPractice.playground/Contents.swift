@@ -100,4 +100,17 @@ Summer([0,0,1,0,0])
 //palindrome
 
 
+var myArray = [0,1,2,3]
+
+func reverseArray (array:Array<Int>) -> Array<Int>{
+    
+    
+    
+    
+    return array
+}
+
+reverseArray(myArray)
+
+
 
