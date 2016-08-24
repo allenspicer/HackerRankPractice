@@ -2,4 +2,12 @@
 
 import UIKit
 
-var str = "Hello, playground"
+var myString = "Helloo"
+
+let result = String(myString.characters.reverse())
+
+if result is String{
+
+print (result)
+
+}
