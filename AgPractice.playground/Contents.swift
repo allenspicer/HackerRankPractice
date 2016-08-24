@@ -11,3 +11,15 @@ if result is String{
 print (result)
 
 }
+
+
+let myRange = 1...100
+
+for number in myRange{
+    if number is Int && number%2 == 0 {
+        print(number)
+    }
+}
+
+let myArray = [1...100]
+
