@@ -13,9 +13,10 @@ func fibGenerator (idx:Int) -> Int{
     var i = 0
     while i < idx{
         
-        if let previousValue = fibArray[i]{
+       if let previousValue = fibArray[i] as Int?{
             
-            if let twoBackValue = fibArray[i-1]{
+            if let twoBackValue = fibArray[i-1] as Int?{
+               
                 currentValue = previousValue + twoBackValue
             }
         }
