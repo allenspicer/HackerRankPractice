@@ -32,3 +32,7 @@ func fibGenerator (idx:Int) -> Int{
 
 [1,1,2]
 [1,1,2,3]
+
+
+fibGenerator(3)
+
