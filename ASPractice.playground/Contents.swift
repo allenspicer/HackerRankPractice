@@ -50,3 +50,30 @@ peopleCounter(9)
 
 
 
+enum PieType {
+    case Apple
+    case Cherry
+    case Pecan
+}
+
+let favoritePie = PieType.Apple
+
+let name: String
+
+switch favoritePie{
+    case .Apple:
+    name = "Apple"
+    
+    case .Cherry:
+    name = "Cherry"
+    
+case .Pecan:
+    name 
+    
+    
+}
+
+
+
+
+
