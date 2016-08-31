@@ -68,10 +68,13 @@ switch favoritePie{
     name = "Cherry"
     
 case .Pecan:
-    name 
+    name = "Pecan"
     
     
 }
+
+favoritePie
+name
 
 
 
