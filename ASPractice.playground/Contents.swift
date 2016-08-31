@@ -20,5 +20,19 @@ var str = "Hello, playground"
 //
 //
 
+var people = 10
 
+func peopleCounter (people:Int)-> String{
+
+    var result = String()
+    
+if people == 10 {
+    result =  "there are ten people"
+}else{
+    result = "there are not ten people"
+}
+    return nil
+}
+
+peopleCounter(people)
 
