@@ -8,11 +8,17 @@ var str = "Hello, playground"
 
 //create a model
 
-class SmallView: UIView {
-    var viewParameters = CGRect.init(x: 10, y: 10, width: 10, height: 10)
-    var myView = UIView.init(frame: viewParameters)
-    
-    self.view = myView
-    
-    
-}
+//class SmallView: UIView {
+//    var viewParameters = CGRectMake(10, 10, 10, 10)
+//        
+//    var myView = UIView.init(frame: viewParameters)
+//    
+//    self.view = myView
+//    
+//    
+//}
+//
+//
+
+
+
