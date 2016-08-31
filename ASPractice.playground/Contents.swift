@@ -35,4 +35,7 @@ if people == 10 {
 }
 
 peopleCounter(people)
+peopleCounter(11)
+peopleCounter(0)
+
 
