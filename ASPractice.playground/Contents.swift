@@ -31,7 +31,7 @@ if people == 10 {
 }else{
     result = "there are not ten people"
 }
-    return nil
+    return result
 }
 
 peopleCounter(people)
