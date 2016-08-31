@@ -25,17 +25,29 @@ var people = 10
 func peopleCounter (people:Int)-> String{
 
     var result = String()
+    switch people {
+    case 10:
+          result =  "there are ten people"
+    case 9:
+        result =  "there are nine people"
+    default:
+       result = "there are not ten people"
+    }
     
-if people == 10 {
-    result =  "there are ten people"
-}else{
-    result = "there are not ten people"
-}
+    
+//    
+//if people == 10 {
+//    result =  "there are ten people"
+//}else{
+//    result = "there are not ten people"
+//}
     return result
 }
 
 peopleCounter(people)
 peopleCounter(11)
 peopleCounter(0)
+peopleCounter(9)
+
 
 
