@@ -2,4 +2,9 @@
 
 import UIKit
 
-var str = "Hello, playground"
+
+NSObject *newObject = [[NSObject alloc]init];
+
+[newObject action]
+
+
