@@ -7,4 +7,7 @@ NSObject *newObject = [[NSObject alloc]init];
 
 [newObject action]
 
+NSString *newString = @"Hello";
+
+
 
