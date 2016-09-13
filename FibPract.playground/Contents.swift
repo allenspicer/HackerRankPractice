@@ -35,4 +35,6 @@ func fibGenerator (idx:Int) -> Int{
 
 
 fibGenerator(3)
+fibGenerator(7)
+fibGenerator(100)
 
