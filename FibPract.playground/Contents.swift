@@ -19,6 +19,9 @@ func fibGenerator (idx:Int) -> Int{
                
                 currentValue = previousValue + twoBackValue
             }
+       }else{
+        
+        return 1
         }
         
         fibArray.append(currentValue)
