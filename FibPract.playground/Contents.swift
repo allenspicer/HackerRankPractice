@@ -36,6 +36,10 @@ func fibGenerator (idx:Int) -> Int{
 [1,1,2]
 [1,1,2,3]
 
+let myString = "helloworlds"
+let reversed = String(myString.characters.reverse())
+print(reversed)
+
 
 //fibGenerator(3)
 //fibGenerator(7)
